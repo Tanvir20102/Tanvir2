@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bronte | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+
+    <!-- ************************************************************************ Navabr ************************************************************************ -->
+    <header>
+        <nav>
+            <div class="logo-div">
+                <img src="img/logo.png" alt="Bronte">
+
+                <div class="burger" title="Menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="close hidden" title="Hide Menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+            </div>
+
+            <div class="nav-links">
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- *************************************************************** Introduction container ***************************************************************** -->
+    <div class="intro-section">
+        <div class="intro-container">
+            <div class="intro-left">
+                <h1>Welcome to <span>Bronte</span></h1>
+                <h2>We'r ready for <span id="element"></span></h2>
+            </div>
+
+            <div class="intro-right">
+                <img loading="lazy" src="img/phone.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- ***************************************************************** our goals container ********************************************************************** -->
+    <div class="goal-section">
+        <div class="goal-container">
+            <div class="g-img-div">
+                <img loading="lazy" src="img/img-1.png" alt="Image">
+            </div>
+
+            <div class="g-text-div">
+                <i class="fa-solid fa-circle fa-2xs" style="color: #08388c;"></i>
+                <h2>Our goals</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis <br>dignissimos voluptate,
+                    tenetur exercitationem aliquid voluptates cum aspernatur nisi. Sequi, nisi? Commodi maxime iste
+                    cum soluta quis et ab dolore tempora. </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***************************************************************** project section ************************************************************************* -->
+    <div class="project-section">
+        <div class="project-container">
+            <div class="proj-heading">
+                <i class="fa-solid fa-circle fa-2xs" style="color: #08388c;"></i>
+                <h3> Our projects</h3>
+            </div>
+
+            <div class="proj-titles-div">
+                <div class="proj-title">
+                    <h1>Project 1</h1>
+                </div>
+                <div class="proj-title">
+                    <h1>Project 2</h1>
+                </div>
+                <div class="proj-title">
+                    <h1>Project 3</h1>
+                </div>
+                <div class="proj-title">
+                    <h1>Project 4</h1>
+                </div>
+                <div class="proj-title">
+                    <h1>Project 5</h1>
+                </div>
+                <div class="proj-title">
+                    <h1>Project 6</h1>
+                </div>
+                <div class="proj-title">
+                    <h1>Project 7</h1>
+                </div>
+                <div class="proj-title">
+                    <h1>Project 8</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ********************************************************************* Explore section ************************************************************* -->
+    <div class="explore-section">
+        <div class="explore-container">
+            <div class="exp-text">
+                <h1>Wanna explore <br><span>Bronte</span> ?</h1>
+            </div>
+            <div class="exp-btn-div">
+                <button class="exp-btn"><a href="#">Explore Now</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- *************************************************************** black box section*************************************************************************** -->
+    <div class="black-box-section">
+        <div class="black-box-container">
+            <div class="black-box">
+                <div class="text-box">
+                    <div class="box-heading">
+                        <h1 class="box-heading-1" onclick="h_1()">Design</h1>
+                        <h1 class="box-heading-2" onclick="h_2()">Project</h1>
+                        <h1 class="box-heading-3" onclick="h_3()">Execution</h1>
+
+                    </div>
+
+                    <div class="box-para-wrapper">
+                        <p class="box-para" id="para">Welcome to our Design Section, where innovation meets creativity. Our team of skilled designers combines cutting-edge technology with aesthetic precision to deliver unique, user-centric solutions that stand out in the digital world. Whether you're looking to revamp your brand identity, develop a seamless user interface, or create an engaging visual
+                           </p>
+                    </div>
+                </div>
+
+                <div class="img-box">
+                    <img loading="lazy" src="img/box2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ****************************************************************************** Scripts ******************************************************************** -->
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+
+        var typed = new Typed('#element', {
+            strings: ["Helping you", "Your service"],
+            typeSpeed: 30,
+            backSpeed: 30,
+            startDelay: 20,
+            backDelay: 1000,
+            loop: true
+        });
+
+    </script>
+</body>
+
+</html>
